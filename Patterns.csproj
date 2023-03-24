@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Creational\" />
+    <None Remove="Creational\FactoryMethod\" />
+    <None Remove="Creational\AbstractFactory\" />
+    <None Remove="Creational\Singleton\" />
+    <None Remove="Creational\Prototype\" />
+    <None Remove="Creational\Builder\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Creational\" />
+    <Folder Include="Creational\FactoryMethod\" />
+    <Folder Include="Creational\AbstractFactory\" />
+    <Folder Include="Creational\Singleton\" />
+    <Folder Include="Creational\Prototype\" />
+    <Folder Include="Creational\Builder\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="SmartFormat" Version="3.2.1" />
+  </ItemGroup>
+</Project>
